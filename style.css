@@ -1,0 +1,367 @@
+
+#birthdayBanner{
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: auto;
+    animation: hover 3s ease-in-out infinite;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+@keyframes hover{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+#menuBG{
+    background: url("BackgroundPixel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#anniBG{
+    background: url("HeartBG.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#envelope{
+    display:flex;
+    text-align:center;
+    margin-right: auto;
+    margin-left: auto;
+    animation: hover 3s ease-in-out infinite;
+}
+
+#anniBanner{
+    width:500px;
+    margin:0;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 300px;
+}
+
+#photoStrip img, #videoTape img{
+    width: 300px
+}
+
+#photoStrip, #videoTape{
+    border: solid red;
+    margin: 100px;
+}
+
+
+#arrow{
+    position: absolute;
+    left: 50px;
+}
+
+#arrow img{
+    width: 200px;
+}
+
+.containerTitle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#photoBoothMenu{
+    background: url("bigRubberDuckyBG.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50%;
+}
+
+.containerPBTitle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#photoGallery{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top:150px;
+}
+
+.containerPhotoGallery{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+#dateleft{
+    border: solid black;
+    width: 10%;
+    background-color: pink;
+    color: purple;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 320px;
+}
+
+#dateright{
+    border: solid black;
+    width: 10%;
+    background-color: pink;
+    color: purple;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 1250px;
+}
+
+
+#dateleft2{
+    border: solid black;
+    width: 10%;
+    background-color: pink;
+    color: purple;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 320px;
+}
+
+#dateright2{
+    border: solid black;
+    width: 10%;
+    background-color: pink;
+    color: purple;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 1250px;
+}
+
+#suntecPancake img{
+    margin-left: 100px;
+}
+
+#pasirRisMelody img{
+    margin-left: 100px;
+}
+
+#dateleft3{
+    border: solid black;
+    width: 10%;
+    background-color: pink;
+    color: purple;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 320px;
+}
+
+#dateright3{
+    border: solid black;
+    width: 10%;
+    background-color: pink;
+    color: purple;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 1250px;
+}
+
+#w2e img{
+    margin-right:400px;
+}
+
+#blueBG img {
+    margin-right: 670px;
+}
+
+#dateleft4{
+    border: solid black;
+    width: 10%;
+    background-color: pink;
+    color: purple;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 320px;
+}
+
+#dateright4{
+    border: solid black;
+    width: 10%;
+    background-color: pink;
+    color: purple;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 1250px;
+}
+
+#trainSolace img{
+    margin-right: 100px;
+}
+
+#liftSolace img {
+    margin-right: 110px;
+}
+
+#latest{
+    border: solid black;
+    width: 10%;
+    text-align: center;
+    background-color: pink;
+    border-radius: 10px;
+    color: purple;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 160px;
+}
+
+#pokemonCPCM img {
+    margin-top: 200px;
+    margin-left: 650px
+}
+
+#dateleft5{
+    border: solid black;
+    width: 10%;
+    background-color: pink;
+    color: purple;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 320px;
+}
+
+#dateright5{
+    border: solid black;
+    width: 10%;
+    background-color: pink;
+    color: purple;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 1250px;
+}
+
+#momongaFill img{
+    margin-right: 200px;
+}
+
+#pinkBG img{
+    margin-left: -150px;
+}
+
+#videoBoothBG{
+    background: url("AlienCowBG.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #212135;
+    height: 100vh;
+}
+
+#MooMoo{
+    position: absolute;
+    margin-top: 72vh;
+    margin-left: 110vh;
+}
+
+#MooMooHelp{
+    position: absolute;
+    height: 30vh;
+    margin-top: 10vh;
+    margin-left: 50%;
+}
+
+#cowButton{
+    position: absolute;
+    height: 100vh;
+    margin-top: 95vh;
+    margin-left: 70%;
+}
+
+#cowButton{
+    height:300%;
+    width:auto;
+}
+
+#realVideoBooth{
+    background: url("umbreonBackground.png");
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Keeps header/content stacked vertically */
+    align-items: center;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;       /* Allows them to stack on mobile */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;             /* Space between the strips */
+    padding: 20px;
+    width: 100%;
+}
+.booth-video {
+    width: 45%;            /* Adjust width to fit two side-by-side */
+    max-width: 400px; 
+    height: auto;          /* This forces the 'box' to match the video height */
+    display: block;        /* Removes the tiny gap at the bottom of the video */
+    
+    border: 8px solid #f2cf41; /* Your Umbreon yellow border */
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+}
+
+.booth-video video {
+    width: 100%;                /* Video fills the framed box */
+    height: auto;
+}
